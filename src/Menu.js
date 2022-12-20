@@ -9,17 +9,6 @@ const Menu = () => {
   };
 
   return (
-    // <div>
-    //   <div className='flex-row'>
-    //     <p className='text-center text-2xl p-5'>NUMBER OF PLAYERS</p>
-    //     <div className='rounded-md shadow-sm'>
-    //       <input
-    //         type='text'
-    //         className='form-input py-4 px-4 block w-full leading-5 text-center rounded-md sm:text-sm sm:leading-5'
-    //       />
-    //     </div>
-    //   </div>
-    // </div>
     <div>
       <p className='text-center text-4xl p-5 font-bold text-zinc-400'>
         SELECT NUMBER OF PLAYERS
@@ -61,7 +50,7 @@ const Menu = () => {
           whileTap={{ scale: 1 }}
           transition={{ duration: 0.1 }}
         >
-          <p className='text-white text-4xl font-bold'>START GAME</p>
+          <p className='text-white text-4xl font-bold'>GET ROLES</p>
         </motion.button>
       </div>
     </div>
