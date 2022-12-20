@@ -37,6 +37,7 @@ const Menu = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1, transition: { duration: 0.03 } }}
             transition={{ duration: 0.1 }}
+						animate={{backgroundColor: num === selectedButton ? 'rgb(249 115 22)' : 'rgb(147 51 234)'}}
             onClick={() => handleButtonClick(num)}
           >
             {num}
